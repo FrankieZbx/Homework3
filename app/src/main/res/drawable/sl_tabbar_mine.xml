@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--如果控件可用，则颜色是灰色，不可用则是蓝色-->
+    <item android:drawable="@drawable/tabbar_mine" android:state_enabled="true"/>
+    <item android:drawable="@drawable/tabbar_mine_select" android:state_enabled="false"/>
+</selector>
